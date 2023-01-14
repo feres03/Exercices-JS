@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestJS</title>
+</head>
+<body>
+    <script>
+        function Somme(){
+        var Tab = [1,-4,7,12]
+        var somme=0
+        somme = Tab.filter((item)=>item>0).reduce((a,b) => a+b)
+        alert(somme)
+        }
+        Somme()
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestJS</title>
+</head>
+
+<body>
+    <script>
+        function numbers() {
+            var Tab = [19, 5, 42, 2, 77]
+            var firstmin = Math.min(...Tab)
+            Tab.splice(Tab.indexOf(firstmin), 1)
+            var secondmin = Math.min(...Tab)
+            alert(firstmin + secondmin)
+        }
+        numbers()
+
+
+    </script>
+</body>
+
+</html>
